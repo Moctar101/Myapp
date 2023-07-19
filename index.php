@@ -16,7 +16,7 @@ $str = isset($_GET['search']) ? $_GET['search'] : '';
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TPCRUD</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
 <div class="container-fluid col-8 mt-4">
@@ -160,6 +160,6 @@ for ($i = 1; $i <= $nbr_de_pages; $i++) {
 
 
 <?php include 'add_modal.php'; ?>
-<script src="js/bootstrap.bundle.js"></script>
+<script src="bootstrap.bundle.js"></script>
 </body>
 </html>
